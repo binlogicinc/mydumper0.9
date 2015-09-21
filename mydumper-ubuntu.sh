@@ -14,7 +14,7 @@ apt-get  -y install libglib2.0-dev zlib1g-dev libpcre3-dev libssl-dev
 apt-get -y libmysqld-dev
 apt-get  -y install cmake
 apt-get  -y install gcc-4.4
-cd ~/mydumper
+cd mydumper
 make clean 
 cmake .
 make
